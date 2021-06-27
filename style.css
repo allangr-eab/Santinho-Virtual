@@ -1,0 +1,67 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#foto {
+    background-image: linear-gradient(to right, #db221c 0%, #ff9b7c 100%);
+}
+
+#santinho {
+    height: 600px;
+    flex: 0 0 400px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(24, 26, 126);
+    background-color: rgb(221, 142, 68);
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 3px 2px 0  rgb(77, 76, 76);
+
+}
+
+#cargo {
+    background-image: linear-gradient(to right, #d6b0b0 0%, #eeac76 100%);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#slogan {
+    color: #1f1f1f;
+    background-image: linear-gradient(to right, #c55c15 0%, #e2b065 100%);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#final {
+    background-color: rgb(202, 140, 60);
+    font-size: 50px;
+    display: flex; height: 50px; justify-content: space-around; align-items: center;
+    font-weight: bold;
+}
+
+#numero {
+    color: darkblue;
+    text-shadow: 3px 2px 0  darkolivegreen;
+}
+
+#partido {
+    color: darkblue;
+    text-shadow: 3px 2px 0  darkolivegreen;
+}
